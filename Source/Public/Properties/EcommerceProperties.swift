@@ -292,6 +292,8 @@ public struct EcommerceProperties {
         }
     }
 
+    /// Shopping basket status
+    /// - parameter addedToBasket: add
     public enum Status: String {
         case addedToBasket = "add"
         case purchased = "conf"

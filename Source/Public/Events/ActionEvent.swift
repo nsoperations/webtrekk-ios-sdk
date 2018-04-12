@@ -1,3 +1,13 @@
+/// ActionEvent that expects:
+///
+/// - parameter actionProperties:           action Properties
+/// - parameter advertisementProperties:    advertisement Properties
+/// - parameter ecommerceProperties:        ecommerce Properties
+/// - parameter pageProperties:             page Properties
+/// - parameter userProperties:             user Properties
+/// - parameter ipAddress:                  IP Address
+/// - parameter sessionDetails:             session Details
+/// - parameter variables:                  variables
 public class ActionEvent: TrackingEventWithActionProperties,
     TrackingEventWithAdvertisementProperties,
     TrackingEventWithEcommerceProperties,

@@ -268,7 +268,7 @@ private class ExceptionSaveAndSendHelper {
     }
 
     private func normalizeUserInfo(userInfo: NSDictionary?) -> NSString {
-        let userInfo = userInfo?.flatMap() {key, value in
+        let userInfo = userInfo?.compactMap { key, value in
             return "\(key):\(value);"
             }.joined()
 
@@ -276,7 +276,7 @@ private class ExceptionSaveAndSendHelper {
     }
 
     private func normalizeUserReturnAddress(returnAddress: [NSNumber]?) -> NSString {
-        let returnValue = returnAddress?.flatMap({$0.stringValue}).joined(separator: " ")
+        let returnValue = returnAddress?.compactMap({$0.stringValue}).joined(separator: " ")
 
         return normalizeField(field: returnValue, fieldName: "stack return address")
     }
@@ -377,7 +377,7 @@ private class ExceptionSaveAndSendHelper {
         var fileName: String? = nil
 
         //find file with minimumID
-        enumerator?.forEach() {value in
+        enumerator?.forEach { value in
             if let strValue = value as? String, strValue.contains(exceptionFileName) {
                 if let range = strValue.range(of: "\\d", options: .regularExpression),
                     let number = Int(strValue[range]) {
