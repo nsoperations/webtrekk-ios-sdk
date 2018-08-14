@@ -1,5 +1,4 @@
 import Foundation
-import UIKit
 
 #if !os(watchOS)
     #if CARTHAGE_CONFIG

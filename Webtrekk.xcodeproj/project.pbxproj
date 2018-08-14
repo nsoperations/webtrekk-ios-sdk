@@ -87,6 +87,9 @@
 		0FE637861EDED536006887EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE637851EDED536006887EC /* AVFoundation.framework */; };
 		5A20E21E2084DBB700EF4E1A /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A20E21D2084DBB700EF4E1A /* Reachability.framework */; };
 		5AEE4AF3207EC2FB008FD2B3 /* CampaignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE4AF2207EC2FB008FD2B3 /* CampaignTests.swift */; };
+		5AEFBD7B2123305C00CECC36 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEFBD7A2123305C00CECC36 /* URLSessionPinningDelegate.swift */; };
+		5AEFBD7C2123305C00CECC36 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEFBD7A2123305C00CECC36 /* URLSessionPinningDelegate.swift */; };
+		5AEFBD7D2123305C00CECC36 /* URLSessionPinningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEFBD7A2123305C00CECC36 /* URLSessionPinningDelegate.swift */; };
 		5AF6D0682073DA6E002E98A3 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6D0672073DA6E002E98A3 /* Tests.swift */; };
 		5AF6D06A2073DA6E002E98A3 /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2D21791EDEA18500D09ADF /* Webtrekk.framework */; };
 		5AF6D0812073DC86002E98A3 /* RequestTrackerBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6D0802073DC86002E98A3 /* RequestTrackerBuilderTests.swift */; };
@@ -210,6 +213,7 @@
 		0FE6378A1EDED7AD006887EC /* Webtrekk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Webtrekk-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A20E21D2084DBB700EF4E1A /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 		5AEE4AF2207EC2FB008FD2B3 /* CampaignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignTests.swift; sourceTree = "<group>"; };
+		5AEFBD7A2123305C00CECC36 /* URLSessionPinningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionPinningDelegate.swift; sourceTree = "<group>"; };
 		5AF6D0652073DA6E002E98A3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF6D0672073DA6E002E98A3 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		5AF6D0692073DA6E002E98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -349,6 +353,7 @@
 				0F2D21901EDEA1C500D09ADF /* RequestQueue.swift */,
 				0F2D21911EDEA1C500D09ADF /* RequestTrackerBuilder.swift */,
 				0F2D21921EDEA1C500D09ADF /* RequestUrlBuilder.swift */,
+				5AEFBD7A2123305C00CECC36 /* URLSessionPinningDelegate.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -696,13 +701,13 @@
 					9F9E5F041F2770A000FC5246 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8JS62GK93M;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					9F9E5F1A1F2775D700FC5246 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8JS62GK93M;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -854,6 +859,7 @@
 				0F2D22121EDEA1C500D09ADF /* TrackingEventWithPageProperties.swift in Sources */,
 				0F2D221B1EDEA1C500D09ADF /* MediaProperties.swift in Sources */,
 				9F1BF20E1F697863006B6F06 /* DigestType.swift in Sources */,
+				5AEFBD7B2123305C00CECC36 /* URLSessionPinningDelegate.swift in Sources */,
 				9F1BF2101F697863006B6F06 /* Int+Extension.swift in Sources */,
 				9F1BF2161F697863006B6F06 /* Utils.swift in Sources */,
 				0F2D22291EDEA1C500D09ADF /* WebtrekkTracking.swift in Sources */,
@@ -887,6 +893,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEFBD7C2123305C00CECC36 /* URLSessionPinningDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -894,6 +901,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEFBD7D2123305C00CECC36 /* URLSessionPinningDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -67,6 +67,16 @@ public class WebtrekkTracking {
 
         _ = try createTracker(configurationFile: confFile)
     }
+    
+    // set pinning stuff here
+    private static var pins: Set<String>?;
+    public static func setPinning(pinnings: Set<String>?) {
+        pins = pinnings;
+    }
+    
+    public static func getPinning() -> Set<String>{
+        return pins ?? [""];
+    }
 
     /**
     Creates a `Tracker` with the given configurationFile URL.
