@@ -82,14 +82,25 @@ internal final class RequestManager: NSObject, URLSessionDelegate {
 	}
 
     internal static func createUrlSession(delegate: URLSessionDelegate? = nil) -> URLSession {
-		let configuration = URLSessionConfiguration.ephemeral
+        let configuration = URLSessionConfiguration.ephemeral
 		configuration.httpCookieAcceptPolicy = .never
 		configuration.httpShouldSetCookies = false
 		configuration.urlCache = nil
 		configuration.urlCredentialStorage = nil
 		configuration.requestCachePolicy = .reloadIgnoringLocalAndRemoteCacheData
 
-		let session = URLSession(configuration: configuration, delegate: delegate, delegateQueue: OperationQueue.main)
+        
+        var session = URLSession(configuration: configuration, delegate: delegate, delegateQueue: OperationQueue.main)
+        
+        // because of usage of Security, which is only available > 10.3 we need to check
+        if #available(watchOSApplicationExtension 3.3,tvOS 10.3, iOS 10.3, *), WebtrekkTracking.hasPinning {
+            session = URLSession(
+                configuration: configuration,
+                delegate: URLSessionPinningDelegate(),
+                delegateQueue: OperationQueue.main
+            )
+        }
+
 		session.sessionDescription = "Webtrekk Tracking"
 
 		return session

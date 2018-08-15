@@ -69,13 +69,18 @@ public class WebtrekkTracking {
     }
     
     // set pinning stuff here
-    private static var pins: Set<String>?;
-    public static func setPinning(pinnings: Set<String>?) {
-        pins = pinnings;
+    private static var pins: Set<String> = []
+    internal static var hasPinning: Bool = false
+
+    public static func setPinning(pinnings: Set<String>) {
+        if !pinnings.isEmpty && pinnings != [""] {
+            pins = pinnings
+            hasPinning = true
+        }
     }
     
-    public static func getPinning() -> Set<String>{
-        return pins ?? [""];
+    public static func getPinning() -> Set<String> {
+        return pins
     }
 
     /**
