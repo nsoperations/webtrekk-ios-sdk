@@ -67,20 +67,20 @@ public class WebtrekkTracking {
 
         _ = try createTracker(configurationFile: confFile)
     }
-    
-    // set pinning stuff here
-    private static var pins: Set<String> = []
+
+    // set pinning hash here
+    private static var pinHash: String = ""
     internal static var hasPinning: Bool = false
 
-    public static func setPinning(pinnings: Set<String>) {
-        if !pinnings.isEmpty && pinnings != [""] {
-            pins = pinnings
+    public static func setPinning(pinningHash: String) {
+        if !pinningHash.isEmpty {
+            pinHash = pinningHash
             hasPinning = true
         }
     }
-    
-    public static func getPinning() -> Set<String> {
-        return pins
+
+    public static func getPinning() -> String {
+        return pinHash
     }
 
     /**
