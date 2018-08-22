@@ -1,5 +1,4 @@
 import Foundation
-import UIKit
 
 #if os(watchOS)
 import WatchKit
@@ -23,47 +22,32 @@ public class WebtrekkTracking {
     /** Indicates wether the sdk tries to migrated stored data from the previous major version. */
     public static var migratesFromLibraryV3 = true
 
-    /** Set pinning here, this will use URLSessionPinningDelegate iso the default URLSessionDelegate
-     which will check for the given certificate to be included in your application with the certificate on the server **/
-    internal static var hasPinning: Bool = false
-    private static var certificateCollection: [Data] = []
-
-    /**
-        In order to use this, make sure you pass the correct structure which expects an Array of data.
-     
-        ### Usage Example ###
-        ```
-        let certificates: [Data] = {
-            let url = Bundle.main.url(forResource: "certFileName", withExtension: "cer")!
-            let data = try! Data(contentsOf: url)
-
-            return [data]
-        }()
-
-        WebtrekkTracking.setPinning(certificates: certificates)
-        ```
-
-        * Get your local certificates
-        * Add them to the pinning via our `setPinning` method
-     
-        - Parameter certificates: local certificate files
-    */
-    public static func setPinning(certificates: [Data]) {
-        if certificates.isEmpty {
-            self.hasPinning = false
-            return
-        }
-
-        self.hasPinning = true
-        certificateCollection = certificates
-    }
-
-    internal static func getPinning() -> [Data] {
-        return certificateCollection
-    }
-
     /** Main track object */
     internal static var tracker: Tracker?
+
+    /**
+     In order to use this, make sure you pass the correct structure which expects an Array of data.
+
+     ### Usage Example ###
+     ```
+     let certificates: [Data] = {
+       let url = Bundle.main.url(forResource: "certFileName", withExtension: "cer")!
+       let data = try! Data(contentsOf: url)
+
+       return [data]
+     }()
+
+     WebtrekkTracking.setPinning(certificates: certificates)
+     ```
+
+     * Pass your local certificates
+     * Add them to the pinning via our `setPinning` method
+
+     - Parameter certificates: local certificate files
+     */
+    public static func setPinning(certificates: [Data]) {
+        CertificateHandler.setPinning(certificates: certificates)
+    }
 
      /** Get main shared Webtrekk instance. */
     public static func instance() -> Tracker {

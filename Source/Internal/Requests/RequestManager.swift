@@ -92,7 +92,7 @@ internal final class RequestManager: NSObject, URLSessionDelegate {
         var session = URLSession(configuration: configuration, delegate: delegate, delegateQueue: OperationQueue.main)
 
         // because of usage of Security, which is only available > 10.3 we need to check
-        if WebtrekkTracking.hasPinning {
+        if CertificateHandler.hasPinning {
             session = URLSession(
                 configuration: configuration,
                 delegate: URLSessionPinningDelegate(),

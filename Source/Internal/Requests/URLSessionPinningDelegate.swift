@@ -9,7 +9,7 @@
 import Foundation
 
 class URLSessionPinningDelegate: NSObject, URLSessionDelegate {
-    var certificates: [Data] = WebtrekkTracking.getPinning()
+    var certificates: [Data] = CertificateHandler.getPinning()
 
     func urlSession(
         _ session: URLSession,
@@ -23,7 +23,7 @@ class URLSessionPinningDelegate: NSObject, URLSessionDelegate {
 
                 if certificates.contains(data) {
                     completionHandler(.useCredential, URLCredential(trust: serverTrust))
-                    
+
                     return
                 }
             }
