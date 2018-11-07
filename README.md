@@ -28,7 +28,7 @@ Xcode 9.3+ and Swift 4.1 starting with version 4.11.0
 
 Xcode 10+ and Swift 4.2 starting with version 4.12.1
 
-## Cocoapod Swift 4.2 trouble:
+### Cocoapod Swift 4.2 trouble:
 To resolve when you cannot lint with Cocoapods, use:
 
 `pod spec lint --allow-warnings`
