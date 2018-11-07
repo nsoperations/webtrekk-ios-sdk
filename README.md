@@ -28,6 +28,13 @@ Xcode 9.3+ and Swift 4.1 starting with version 4.11.0
 
 Xcode 10+ and Swift 4.2 starting with version 4.12.1
 
+## Cocoapod Swift 4.2 trouble:
+To resolve when you cannot lint with Cocoapods, use:
+
+`pod spec lint --allow-warnings`
+
+There are a few warnings with the new API in Swift 4.2, all will still work. It's just warnings and we will work to make them disappear by the time a new Swift version is out.
+
 tvOS support starting with version 4.2.0 with the following limitation:
 No screen resolution and automatic network status tracking support.
 
