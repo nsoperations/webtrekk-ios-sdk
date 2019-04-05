@@ -2,11 +2,7 @@ import Foundation
 import UIKit
 
 #if !os(watchOS)
-    #if CARTHAGE_CONFIG
-        import Reachability
-    #else
-        import ReachabilitySwift
-    #endif
+    import Reachability
 #endif
 
 internal final class RequestManager: NSObject, URLSessionDelegate {

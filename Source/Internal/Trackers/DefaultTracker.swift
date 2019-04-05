@@ -4,19 +4,11 @@ import UIKit
     import WatchKit
 #elseif os(tvOS)
     import AVFoundation
-    #if CARTHAGE_CONFIG
-        import Reachability
-    #else
-        import ReachabilitySwift
-    #endif
+    import Reachability
 #else
     import AVFoundation
     import CoreTelephony
-    #if CARTHAGE_CONFIG
-        import Reachability
-    #else
-        import ReachabilitySwift
-    #endif
+    import Reachability
 #endif
 
 final class DefaultTracker: Tracker {
