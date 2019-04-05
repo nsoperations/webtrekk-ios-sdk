@@ -28,6 +28,8 @@ Xcode 9.3+ and Swift 4.1 starting with version 4.11.0
 
 Xcode 10+ and Swift 4.2 starting with version 4.12.1
 
+Xcode 10.2+ and Swift 4.2 starting with version 4.13.1
+
 ### Cocoapod Swift 4.2 trouble:
 To resolve when you cannot lint with Cocoapods, use:
 
@@ -47,7 +49,7 @@ Carthage support starting from version 4.6.0
 
 # Installation
 
-[CocoaPods](htttp://www.cocoapods.org) (*Podfile*):
+[CocoaPods](htttps://www.cocoapods.org) (*Podfile*):
 
 `pod 'Webtrekk'`
 
