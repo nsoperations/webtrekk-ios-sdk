@@ -26,14 +26,20 @@ Xcode 9.0+ and Swift 4.0 starting with version 4.8.0
 
 Xcode 9.3+ and Swift 4.1 starting with version 4.11.0
 
-Xcode 10+ and Swift 4.2 starting with version 4.12.1
+Xcode 10+ and Swift 4.2 starting with version 4.12.1 (See `Legacy Build System` Setting)
 
-Xcode 10.2+ and Swift 4.2 starting with version 4.13.2
+Xcode 10.2+ and Swift 4.2 starting with version 4.13.2 (See `Legacy Build System` Setting)
 
 ### Cocoapod Swift 4.2 trouble:
 To resolve when you cannot lint with Cocoapods, use:
 
 `pod spec lint --allow-warnings`
+
+### Use the Legacy Build System for building:
+- File
+    - Project/Workspace Settings
+      - Shared Workspace Settings
+        - Build System -> `Legacy Build System`
 
 There are a few warnings with the new API in Swift 4.2, all will still work. It's just warnings and we will work to make them disappear by the time a new Swift version is out.
 
