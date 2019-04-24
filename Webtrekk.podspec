@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
 
 	s.ios.dependency 'ReachabilitySwift', '~> 4.3.1'
     s.ios.dependency 'CryptoSwift', '~> 1.0.0'
+    s.watchos.dependency 'CryptoSwift', '~> 1.0.0'
     s.tvos.dependency 'ReachabilitySwift', '~> 4.3.1'
     s.tvos.dependency 'CryptoSwift', '~> 1.0.0'
 end
