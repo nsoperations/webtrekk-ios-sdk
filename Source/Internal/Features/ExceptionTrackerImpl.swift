@@ -64,9 +64,9 @@ private func signalHandler(signalNum: Int32) {
 #endif
 
 class ExceptionTrackerImpl: ExceptionTracker {
-
     // use var to make it lazy initialized.
-    static var previousExceptionHandler: ExceptionHandler
+    static var previousExceptionHandler: ExceptionHandler = nil
+
     private static var initialized = false
     fileprivate static var previousSignalHandlers = [Int32: SignalHanlder]()
 

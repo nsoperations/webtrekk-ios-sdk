@@ -10,7 +10,7 @@ internal final class DefaultPageTracker: PageTracker {
 
     fileprivate let handler: Handler
 
-    internal var advertisementProperties = AdvertisementProperties(id: nil)
+    internal var advertisementProperties = AdvertisementProperties()
     internal var ecommerceProperties = EcommerceProperties()
     internal var pageProperties: PageProperties
     internal var sessionDetails = [Int: TrackingValue]()

@@ -1,4 +1,5 @@
 import Foundation
+import CryptoSwift
 
 internal extension String {
 

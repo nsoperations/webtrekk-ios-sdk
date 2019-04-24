@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -86,22 +86,11 @@
 		0FE637841EDED52B006887EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE637831EDED52B006887EC /* Foundation.framework */; };
 		0FE637861EDED536006887EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE637851EDED536006887EC /* AVFoundation.framework */; };
 		5AD18361225758A3001154E7 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A20E21D2084DBB700EF4E1A /* Reachability.framework */; };
+		5AE4AD7D22708F1000AAD7CC /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE4AD7C22708F1000AAD7CC /* CryptoSwift.framework */; };
 		5AEE4AF3207EC2FB008FD2B3 /* CampaignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE4AF2207EC2FB008FD2B3 /* CampaignTests.swift */; };
 		5AF6D0682073DA6E002E98A3 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6D0672073DA6E002E98A3 /* Tests.swift */; };
 		5AF6D06A2073DA6E002E98A3 /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2D21791EDEA18500D09ADF /* Webtrekk.framework */; };
 		5AF6D0812073DC86002E98A3 /* RequestTrackerBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6D0802073DC86002E98A3 /* RequestTrackerBuilderTests.swift */; };
-		9F1BF20B1F697863006B6F06 /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF1FF1F697863006B6F06 /* BatchedCollection.swift */; };
-		9F1BF20C1F697863006B6F06 /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2001F697863006B6F06 /* CSArrayType+Extensions.swift */; };
-		9F1BF20D1F697863006B6F06 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2011F697863006B6F06 /* Digest.swift */; };
-		9F1BF20E1F697863006B6F06 /* DigestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2021F697863006B6F06 /* DigestType.swift */; };
-		9F1BF20F1F697863006B6F06 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2031F697863006B6F06 /* Generics.swift */; };
-		9F1BF2101F697863006B6F06 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2041F697863006B6F06 /* Int+Extension.swift */; };
-		9F1BF2111F697863006B6F06 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2051F697863006B6F06 /* MD5.swift */; };
-		9F1BF2121F697863006B6F06 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2061F697863006B6F06 /* SHA2.swift */; };
-		9F1BF2131F697863006B6F06 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2071F697863006B6F06 /* UInt32+Extension.swift */; };
-		9F1BF2141F697863006B6F06 /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2081F697863006B6F06 /* UInt64+Extension.swift */; };
-		9F1BF2151F697863006B6F06 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF2091F697863006B6F06 /* Updatable.swift */; };
-		9F1BF2161F697863006B6F06 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BF20A1F697863006B6F06 /* Utils.swift */; };
 		9F4400231FDE887600F7CE04 /* ProductListTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4400221FDE887600F7CE04 /* ProductListTracker.swift */; };
 		9F4400251FDE893D00F7CE04 /* ProductListTrackerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4400241FDE893D00F7CE04 /* ProductListTrackerImpl.swift */; };
 		9F49813C1F9F975700BFD9F1 /* AppIntstallGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F49813B1F9F975700BFD9F1 /* AppIntstallGoal.swift */; };
@@ -209,23 +198,12 @@
 		0FE637891EDED5C1006887EC /* Webtrekk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Webtrekk.h; sourceTree = "<group>"; };
 		0FE6378A1EDED7AD006887EC /* Webtrekk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Webtrekk-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A20E21D2084DBB700EF4E1A /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		5AE4AD7C22708F1000AAD7CC /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
 		5AEE4AF2207EC2FB008FD2B3 /* CampaignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignTests.swift; sourceTree = "<group>"; };
 		5AF6D0652073DA6E002E98A3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF6D0672073DA6E002E98A3 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		5AF6D0692073DA6E002E98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF6D0802073DC86002E98A3 /* RequestTrackerBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTrackerBuilderTests.swift; sourceTree = "<group>"; };
-		9F1BF1FF1F697863006B6F06 /* BatchedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BatchedCollection.swift; path = Crypto/BatchedCollection.swift; sourceTree = "<group>"; };
-		9F1BF2001F697863006B6F06 /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CSArrayType+Extensions.swift"; path = "Crypto/CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
-		9F1BF2011F697863006B6F06 /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Digest.swift; path = Crypto/Digest.swift; sourceTree = "<group>"; };
-		9F1BF2021F697863006B6F06 /* DigestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Crypto/DigestType.swift; sourceTree = "<group>"; };
-		9F1BF2031F697863006B6F06 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Crypto/Generics.swift; sourceTree = "<group>"; };
-		9F1BF2041F697863006B6F06 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "Crypto/Int+Extension.swift"; sourceTree = "<group>"; };
-		9F1BF2051F697863006B6F06 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Crypto/MD5.swift; sourceTree = "<group>"; };
-		9F1BF2061F697863006B6F06 /* SHA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Crypto/SHA2.swift; sourceTree = "<group>"; };
-		9F1BF2071F697863006B6F06 /* UInt32+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Crypto/UInt32+Extension.swift"; sourceTree = "<group>"; };
-		9F1BF2081F697863006B6F06 /* UInt64+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Crypto/UInt64+Extension.swift"; sourceTree = "<group>"; };
-		9F1BF2091F697863006B6F06 /* Updatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Crypto/Updatable.swift; sourceTree = "<group>"; };
-		9F1BF20A1F697863006B6F06 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Crypto/Utils.swift; sourceTree = "<group>"; };
 		9F4400221FDE887600F7CE04 /* ProductListTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTracker.swift; sourceTree = "<group>"; };
 		9F4400241FDE893D00F7CE04 /* ProductListTrackerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTrackerImpl.swift; sourceTree = "<group>"; };
 		9F49813B1F9F975700BFD9F1 /* AppIntstallGoal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIntstallGoal.swift; sourceTree = "<group>"; };
@@ -249,6 +227,7 @@
 				0FE637841EDED52B006887EC /* Foundation.framework in Frameworks */,
 				5AD18361225758A3001154E7 /* Reachability.framework in Frameworks */,
 				0FE637821EDED520006887EC /* UIKit.framework in Frameworks */,
+				5AE4AD7D22708F1000AAD7CC /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +286,6 @@
 		0F2D21841EDEA1C500D09ADF /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				9F1BF1FE1F69784C006B6F06 /* Crypto */,
 				0F2D21851EDEA1C500D09ADF /* Event Handlers */,
 				0F2D21891EDEA1C500D09ADF /* Features */,
 				0F2D218E1EDEA1C500D09ADF /* Requests */,
@@ -483,6 +461,7 @@
 		0FE6377B1EDEC001006887EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AE4AD7C22708F1000AAD7CC /* CryptoSwift.framework */,
 				5A20E21D2084DBB700EF4E1A /* Reachability.framework */,
 				9F9E5F281F27775D00FC5246 /* WatchKit.framework */,
 				9F9E5F261F27775100FC5246 /* UIKit.framework */,
@@ -551,25 +530,6 @@
 				5AF6D0692073DA6E002E98A3 /* Info.plist */,
 			);
 			path = Tests;
-			sourceTree = "<group>";
-		};
-		9F1BF1FE1F69784C006B6F06 /* Crypto */ = {
-			isa = PBXGroup;
-			children = (
-				9F1BF1FF1F697863006B6F06 /* BatchedCollection.swift */,
-				9F1BF2001F697863006B6F06 /* CSArrayType+Extensions.swift */,
-				9F1BF2011F697863006B6F06 /* Digest.swift */,
-				9F1BF2021F697863006B6F06 /* DigestType.swift */,
-				9F1BF2031F697863006B6F06 /* Generics.swift */,
-				9F1BF2041F697863006B6F06 /* Int+Extension.swift */,
-				9F1BF2051F697863006B6F06 /* MD5.swift */,
-				9F1BF2061F697863006B6F06 /* SHA2.swift */,
-				9F1BF2071F697863006B6F06 /* UInt32+Extension.swift */,
-				9F1BF2081F697863006B6F06 /* UInt64+Extension.swift */,
-				9F1BF2091F697863006B6F06 /* Updatable.swift */,
-				9F1BF20A1F697863006B6F06 /* Utils.swift */,
-			);
-			name = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -709,7 +669,7 @@
 				};
 			};
 			buildConfigurationList = 0F2D21731EDEA18500D09ADF /* Build configuration list for PBXProject "Webtrekk" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -793,8 +753,6 @@
 				0F2D22171EDEA1C500D09ADF /* BaseProperties.swift in Sources */,
 				0F2D21ED1EDEA1C500D09ADF /* TrackingParameters.swift in Sources */,
 				0F2D21E21EDEA1C500D09ADF /* ExceptionTrackerImpl.swift in Sources */,
-				9F1BF2141F697863006B6F06 /* UInt64+Extension.swift in Sources */,
-				9F1BF20D1F697863006B6F06 /* Digest.swift in Sources */,
 				0F2D21E91EDEA1C500D09ADF /* DefaultMediaTracker.swift in Sources */,
 				0F2D221F1EDEA1C500D09ADF /* MediaTracker.swift in Sources */,
 				0F2D21F41EDEA1C500D09ADF /* ClosedInterval.swift in Sources */,
@@ -802,7 +760,6 @@
 				0F2D22031EDEA1C500D09ADF /* ThreadSynchronization.swift in Sources */,
 				0F2D21F31EDEA1C500D09ADF /* CatchObC.m in Sources */,
 				0F2D221E1EDEA1C500D09ADF /* ExceptionTracker.swift in Sources */,
-				9F1BF2131F697863006B6F06 /* UInt32+Extension.swift in Sources */,
 				9FE24FE81FFCD9490074A8CA /* StorePendingRequest.swift in Sources */,
 				0F2D22201EDEA1C500D09ADF /* PageTracker.swift in Sources */,
 				0F2D22271EDEA1C500D09ADF /* PropertyValue .swift in Sources */,
@@ -824,15 +781,11 @@
 				0F2D21E61EDEA1C500D09ADF /* RequestTrackerBuilder.swift in Sources */,
 				0F2D22141EDEA1C500D09ADF /* TrackingEventWithUserProperties.swift in Sources */,
 				0F2D221A1EDEA1C500D09ADF /* GlobalProperties.swift in Sources */,
-				9F1BF20F1F697863006B6F06 /* Generics.swift in Sources */,
 				0F2D21EC1EDEA1C500D09ADF /* TrackerConfiguration.swift in Sources */,
-				9F1BF2151F697863006B6F06 /* Updatable.swift in Sources */,
 				9F4400231FDE887600F7CE04 /* ProductListTracker.swift in Sources */,
 				0F2D22281EDEA1C500D09ADF /* TrackingValue.swift in Sources */,
-				9F1BF2111F697863006B6F06 /* MD5.swift in Sources */,
 				0F2D22221EDEA1C500D09ADF /* Tracker.swift in Sources */,
 				0F2D21E01EDEA1C500D09ADF /* Campaign.swift in Sources */,
-				9F1BF20C1F697863006B6F06 /* CSArrayType+Extensions.swift in Sources */,
 				0F2D221C1EDEA1C500D09ADF /* PageProperties.swift in Sources */,
 				0F2D220C1EDEA1C500D09ADF /* PageViewEvent.swift in Sources */,
 				0F2D22101EDEA1C500D09ADF /* TrackingEventWithEcommerceProperties.swift in Sources */,
@@ -842,7 +795,6 @@
 				0F2D21F71EDEA1C500D09ADF /* Global.swift in Sources */,
 				0F2D220E1EDEA1C500D09ADF /* TrackingEventWithActionProperties.swift in Sources */,
 				0F2D22111EDEA1C500D09ADF /* TrackingEventWithMediaProperties.swift in Sources */,
-				9F1BF2121F697863006B6F06 /* SHA2.swift in Sources */,
 				0F2D21FB1EDEA1C500D09ADF /* NSRange.swift in Sources */,
 				0F2D21F11EDEA1C500D09ADF /* ASIdentifierManager.swift in Sources */,
 				0F2D220B1EDEA1C500D09ADF /* MediaEvent.swift in Sources */,
@@ -855,11 +807,7 @@
 				0F2D21DF1EDEA1C500D09ADF /* PageViewEventHandler.swift in Sources */,
 				0F2D22121EDEA1C500D09ADF /* TrackingEventWithPageProperties.swift in Sources */,
 				0F2D221B1EDEA1C500D09ADF /* MediaProperties.swift in Sources */,
-				9F1BF20E1F697863006B6F06 /* DigestType.swift in Sources */,
-				9F1BF2101F697863006B6F06 /* Int+Extension.swift in Sources */,
-				9F1BF2161F697863006B6F06 /* Utils.swift in Sources */,
 				0F2D22291EDEA1C500D09ADF /* WebtrekkTracking.swift in Sources */,
-				9F1BF20B1F697863006B6F06 /* BatchedCollection.swift in Sources */,
 				0F2D22071EDEA1C500D09ADF /* WeakReference.swift in Sources */,
 				0F2D220F1EDEA1C500D09ADF /* TrackingEventWithAdvertisementProperties.swift in Sources */,
 				0F2D21EA1EDEA1C500D09ADF /* DefaultPageTracker.swift in Sources */,
@@ -1024,7 +972,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1051,7 +1000,11 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "-DCARTHAGE_CONFIG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Webtrekk.Webtrekk;
 				PRODUCT_NAME = Webtrekk;
@@ -1079,7 +1032,11 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "-DCARTHAGE_CONFIG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Webtrekk.Webtrekk;
 				PRODUCT_NAME = Webtrekk;
@@ -1101,7 +1058,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1120,7 +1081,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinbing.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1144,7 +1109,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Webtrekk.Webtrekk;
 				PRODUCT_NAME = Webtrekk;
 				SDKROOT = appletvos;
@@ -1172,7 +1141,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Webtrekk.Webtrekk;
 				PRODUCT_NAME = Webtrekk;
 				SDKROOT = appletvos;
@@ -1200,7 +1173,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Webtrekk.Webtrekk;
 				PRODUCT_NAME = Webtrekk;
 				SDKROOT = watchos;
@@ -1229,7 +1206,11 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Webtrekk.Webtrekk;
 				PRODUCT_NAME = Webtrekk;
 				SDKROOT = watchos;
