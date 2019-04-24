@@ -26,16 +26,18 @@ Xcode 9.0+ and Swift 4.0 starting with version 4.8.0
 
 Xcode 9.3+ and Swift 4.1 starting with version 4.11.0
 
-Xcode 10+ and Swift 4.2 starting with version 4.12.1 (See `Legacy Build System` Setting)
+Xcode 10+ and Swift 4.2 starting with version 4.12.1 (Uses `Legacy Build System` )
 
-Xcode 10.2+ and Swift 4.2 starting with version 4.13.2 (See `Legacy Build System` Setting)
+Xcode 10.2+ and Swift 4.2 starting with version 4.13.2 (Uses `Legacy Build System` )
 
-### Cocoapod Swift 4.2 trouble:
+Xcode 10.2+ and Swift 5 starting with version 4.14.0 (Uses `New Build System`)
+
+### Cocoapod Swift 4.2 trouble (< 4.14.0):
 To resolve when you cannot lint with Cocoapods, use:
 
 `pod spec lint --allow-warnings`
 
-### Use the Legacy Build System for building:
+### Use the Legacy Build System for building (< 4.14.0):
 - File
     - Project/Workspace Settings
       - Shared Workspace Settings

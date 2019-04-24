@@ -87,6 +87,14 @@
 		0FE637861EDED536006887EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE637851EDED536006887EC /* AVFoundation.framework */; };
 		5AD18361225758A3001154E7 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A20E21D2084DBB700EF4E1A /* Reachability.framework */; };
 		5AE4AD7D22708F1000AAD7CC /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE4AD7C22708F1000AAD7CC /* CryptoSwift.framework */; };
+		5AE4AD7F2270A9A500AAD7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD7E2270A9A500AAD7CC /* README.md */; };
+		5AE4AD802270A9A500AAD7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD7E2270A9A500AAD7CC /* README.md */; };
+		5AE4AD812270A9A500AAD7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD7E2270A9A500AAD7CC /* README.md */; };
+		5AE4AD822270A9A500AAD7CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD7E2270A9A500AAD7CC /* README.md */; };
+		5AE4AD842270AAA100AAD7CC /* Webtrekk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */; };
+		5AE4AD852270AAA100AAD7CC /* Webtrekk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */; };
+		5AE4AD862270AAA100AAD7CC /* Webtrekk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */; };
+		5AE4AD872270AAA100AAD7CC /* Webtrekk.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */; };
 		5AEE4AF3207EC2FB008FD2B3 /* CampaignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE4AF2207EC2FB008FD2B3 /* CampaignTests.swift */; };
 		5AF6D0682073DA6E002E98A3 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6D0672073DA6E002E98A3 /* Tests.swift */; };
 		5AF6D06A2073DA6E002E98A3 /* Webtrekk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2D21791EDEA18500D09ADF /* Webtrekk.framework */; };
@@ -199,6 +207,8 @@
 		0FE6378A1EDED7AD006887EC /* Webtrekk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Webtrekk-Bridging-Header.h"; sourceTree = "<group>"; };
 		5A20E21D2084DBB700EF4E1A /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 		5AE4AD7C22708F1000AAD7CC /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		5AE4AD7E2270A9A500AAD7CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Webtrekk.podspec; sourceTree = "<group>"; };
 		5AEE4AF2207EC2FB008FD2B3 /* CampaignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignTests.swift; sourceTree = "<group>"; };
 		5AF6D0652073DA6E002E98A3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF6D0672073DA6E002E98A3 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -265,6 +275,8 @@
 		0F2D216F1EDEA18500D09ADF = {
 			isa = PBXGroup;
 			children = (
+				5AE4AD7E2270A9A500AAD7CC /* README.md */,
+				5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */,
 				5A20E22120864FD000EF4E1A /* Source */,
 				5AF6D0662073DA6E002E98A3 /* Tests */,
 				0F2D217A1EDEA18500D09ADF /* Products */,
@@ -694,6 +706,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE4AD7F2270A9A500AAD7CC /* README.md in Resources */,
+				5AE4AD842270AAA100AAD7CC /* Webtrekk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +715,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE4AD822270A9A500AAD7CC /* README.md in Resources */,
+				5AE4AD872270AAA100AAD7CC /* Webtrekk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +724,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE4AD802270A9A500AAD7CC /* README.md in Resources */,
+				5AE4AD852270AAA100AAD7CC /* Webtrekk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +733,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE4AD812270A9A500AAD7CC /* README.md in Resources */,
+				5AE4AD862270AAA100AAD7CC /* Webtrekk.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -909,7 +929,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "";
@@ -968,7 +988,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;

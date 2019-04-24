@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name    = 'Webtrekk'
-	s.version = '4.13.2'
+	s.version = '4.14.0'
 
 	s.author   = { 'Webtrekk GmbH' => 'martin.demiddel@webtrekk.com' }
 	s.homepage = 'https://www.webtrekk.com/en/solutions/mobile-analytics/'
@@ -24,5 +24,7 @@ Pod::Spec.new do |s|
 	s.watchos.frameworks = 'WatchKit'
 
 	s.ios.dependency 'ReachabilitySwift', '~> 4.3.1'
+    s.ios.dependency 'CryptoSwift', '~> 1.0.0'
     s.tvos.dependency 'ReachabilitySwift', '~> 4.3.1'
+    s.tvos.dependency 'CryptoSwift', '~> 1.0.0'
 end
