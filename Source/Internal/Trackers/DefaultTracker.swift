@@ -4,11 +4,11 @@ import UIKit
     import WatchKit
 #elseif os(tvOS)
     import AVFoundation
-    import Reachability
+//    import Reachability -> TODO: not a dependency anymore / folder is included
 #else
     import AVFoundation
     import CoreTelephony
-    import Reachability
+//    import Reachability -> TODO: not a dependency anymore / folder is included
 #endif
 
 final class DefaultTracker: Tracker {

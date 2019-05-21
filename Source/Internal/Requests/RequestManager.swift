@@ -1,9 +1,10 @@
 import Foundation
 import UIKit
 
-#if !os(watchOS)
-    import Reachability
-#endif
+// TODO: keep if later import is necessary, for now we have the code in the Reachability folder
+//#if !os(watchOS)
+//    import Reachability
+//#endif
 
 internal final class RequestManager: NSObject, URLSessionDelegate {
 
@@ -17,9 +18,9 @@ internal final class RequestManager: NSObject, URLSessionDelegate {
     private let manualStart: Bool
 
 	#if !os(watchOS)
-	private let reachability: Reachability?
-	private var sendingInterruptedBecauseUnreachable = false
-    var backgroundTaskIdentifier = UIBackgroundTaskIdentifier.invalid
+        private let reachability: Reachability?
+        private var sendingInterruptedBecauseUnreachable = false
+        var backgroundTaskIdentifier = UIBackgroundTaskIdentifier.invalid
 	#endif
 
 	internal fileprivate(set) var queue = RequestQueue()
