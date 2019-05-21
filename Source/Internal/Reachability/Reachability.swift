@@ -313,3 +313,4 @@ extension SCNetworkReachabilityFlags {
         return intersection([.connectionRequired, .transientConnection]) == [.connectionRequired, .transientConnection]
     }
 }
+

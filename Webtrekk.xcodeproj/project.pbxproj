@@ -87,7 +87,6 @@
 		0FE637861EDED536006887EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE637851EDED536006887EC /* AVFoundation.framework */; };
 		5A4D1F8122942AB9006501AA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D1F8022942AB9006501AA /* Reachability.swift */; };
 		5A4D1F8222942AB9006501AA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D1F8022942AB9006501AA /* Reachability.swift */; };
-		5A4D1F8322942AB9006501AA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D1F8022942AB9006501AA /* Reachability.swift */; };
 		5A4D211322942C40006501AA /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D20BD22942C40006501AA /* UInt64+Extension.swift */; };
 		5A4D211422942C40006501AA /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D20BD22942C40006501AA /* UInt64+Extension.swift */; };
 		5A4D211522942C40006501AA /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4D20BD22942C40006501AA /* UInt64+Extension.swift */; };
@@ -964,7 +963,6 @@
 				5A4D219922942C40006501AA /* Updatable.swift in Sources */,
 				5A4D216C22942C40006501AA /* MD5.swift in Sources */,
 				5A4D21A522942C40006501AA /* DigestType.swift in Sources */,
-				5A4D1F8322942AB9006501AA /* Reachability.swift in Sources */,
 				5A4D217522942C40006501AA /* BatchedCollection.swift in Sources */,
 				5A4D21A822942C40006501AA /* Utils.swift in Sources */,
 				5A4D211522942C40006501AA /* UInt64+Extension.swift in Sources */,
