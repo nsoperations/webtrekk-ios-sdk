@@ -84,6 +84,7 @@ class ArraySync<T> {
 
     func remove(at: Int) {
         _ = self.thread.sync(flags: .barrier) {
+            guard at >= 0, at < self.valueInst.count else { return }
             self.valueInst.remove(at: at)
         }
     }
