@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
 	s.name    = 'Webtrekk'
-	s.version = '4.15.3'
+	s.version = '4.15.4'
 
 	s.author   = { 'Webtrekk GmbH' => 'martin.demiddel@webtrekk.com' }
 	s.homepage = 'https://www.webtrekk.com/en/solutions/mobile-analytics/'
 	s.license  = { :type => 'MIT', :file => 'LICENSE.md' }
-    s.ios.deployment_target = '12.0'
-    s.tvos.deployment_target = '12.0'
-    s.watchos.deployment_target = '4.0'
+    s.ios.deployment_target = '9.0'
+    s.tvos.deployment_target = '9.0'
+    s.watchos.deployment_target = '3.0'
     s.source   = { :git => 'https://github.com/Webtrekk/webtrekk-ios-sdk.git', :tag => s.version }
 	s.summary  = 'The Webtrekk SDK allows you to track user activities, screen flow and media usage for your App.'
 
