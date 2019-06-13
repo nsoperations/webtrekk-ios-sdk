@@ -1,7 +1,10 @@
 import Foundation
+#if !os(watchOS)
 import UIKit
+#endif
 
-// TODO: keep if later import is necessary, for now we have the code in the Reachability folder
+// TODO: keep if later import is necessary (once no <Swift 5 support is necessary),
+// for now we have the code in the Reachability folder
 //#if !os(watchOS)
 //    import Reachability
 //#endif
@@ -424,6 +427,8 @@ internal protocol _RequestManagerDelegate: class {
 }
 
 // Helper function inserted by Swift 4.2 migrator.
-private func convertToUIBackgroundTaskIdentifier(_ input: Int) -> UIBackgroundTaskIdentifier {
-	return UIBackgroundTaskIdentifier(rawValue: input)
-}
+#if !os(watchOS)
+    private func convertToUIBackgroundTaskIdentifier(_ input: Int) -> UIBackgroundTaskIdentifier {
+        return UIBackgroundTaskIdentifier(rawValue: input)
+    }
+#endif

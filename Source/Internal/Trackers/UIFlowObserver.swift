@@ -1,8 +1,7 @@
-import UIKit
-
 #if os(watchOS)
     import WatchKit
 #else
+    import UIKit
     import AVFoundation
 #endif
 
@@ -229,6 +228,8 @@ class UIFlowObserver: NSObject {
 }
 
 // Helper function inserted by Swift 4.2 migrator.
-private func convertToUIBackgroundTaskIdentifier(_ input: Int) -> UIBackgroundTaskIdentifier {
-	return UIBackgroundTaskIdentifier(rawValue: input)
-}
+#if !os(watchOS)
+    private func convertToUIBackgroundTaskIdentifier(_ input: Int) -> UIBackgroundTaskIdentifier {
+        return UIBackgroundTaskIdentifier(rawValue: input)
+    }
+#endif

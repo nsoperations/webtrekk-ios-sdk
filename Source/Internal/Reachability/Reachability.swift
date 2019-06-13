@@ -25,6 +25,8 @@
  POSSIBILITY OF SUCH DAMAGE.
  */
 
+// TODO: Although not part of warchOS target, still generates an error on cocoapods lib lint
+#if !os(watchOS)
 import SystemConfiguration
 import Foundation
 
@@ -313,4 +315,4 @@ extension SCNetworkReachabilityFlags {
         return intersection([.connectionRequired, .transientConnection]) == [.connectionRequired, .transientConnection]
     }
 }
-
+#endif

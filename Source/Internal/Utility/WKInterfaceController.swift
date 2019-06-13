@@ -5,7 +5,7 @@ internal extension WKInterfaceController {
     private static var isSwizzled = false
     private static var autoTrackerKey = UInt8()
 
-    internal var automaticTracker: PageTracker {
+    var automaticTracker: PageTracker {
         return objc_getAssociatedObject(self, &WKInterfaceController.autoTrackerKey) as? PageTracker ?? {
             let tracker = DefaultPageTracker(handler: DefaultTracker.autotrackingEventHandler, viewControllerType: type(of: self))
             objc_setAssociatedObject(self, &WKInterfaceController.autoTrackerKey, tracker, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
@@ -13,7 +13,7 @@ internal extension WKInterfaceController {
             }()
     }
 
-    internal static func setUpAutomaticTracking() {
+    static func setUpAutomaticTracking() {
         guard !isSwizzled else {
             return
         }
