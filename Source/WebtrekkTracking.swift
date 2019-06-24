@@ -133,7 +133,7 @@ public class WebtrekkTracking {
     @discardableResult
     public static func updateWKWebViewConfiguration(_ configuration: WKWebViewConfiguration? = nil) -> WKWebViewConfiguration? {
 
-        guard let tracker = tracker else {
+        guard let tracker = self.tracker else {
             logger.logError("Error updating WKWebView configuration. Webtrekk isn't initialized.")
             return nil
         }
