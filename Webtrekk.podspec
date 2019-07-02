@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name    = 'Webtrekk'
-	s.version = '4.15.6'
+	s.version = '4.15.7'
 
 	s.author   = { 'Webtrekk GmbH' => 'martin.demiddel@webtrekk.com' }
 	s.homepage = 'https://www.webtrekk.com/en/solutions/mobile-analytics/'
