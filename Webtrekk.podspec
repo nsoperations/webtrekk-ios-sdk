@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
 	s.name    = 'Webtrekk'
-	s.version = '4.15.7'
+	s.version = '4.15.8'
 
-	s.author   = { 'Webtrekk GmbH' => 'martin.demiddel@webtrekk.com' }
+	s.author   = { 'Webtrekk GmbH' => 'devgroup.mobile@webtrekk.com' }
 	s.homepage = 'https://www.webtrekk.com/en/solutions/mobile-analytics/'
 	s.license  = { :type => 'MIT', :file => 'LICENSE.md' }
     s.ios.deployment_target = '9.0'

@@ -252,6 +252,9 @@
 		5AF6D0672073DA6E002E98A3 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		5AF6D0692073DA6E002E98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF6D0802073DC86002E98A3 /* RequestTrackerBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTrackerBuilderTests.swift; sourceTree = "<group>"; };
+		5AF9C97122F1B354007F987E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		5AF9C97222F1B366007F987E /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		5AF9C97322F1B63D007F987E /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		9F4400221FDE887600F7CE04 /* ProductListTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTracker.swift; sourceTree = "<group>"; };
 		9F4400241FDE893D00F7CE04 /* ProductListTrackerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTrackerImpl.swift; sourceTree = "<group>"; };
 		9F49813B1F9F975700BFD9F1 /* AppIntstallGoal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIntstallGoal.swift; sourceTree = "<group>"; };
@@ -310,7 +313,10 @@
 			isa = PBXGroup;
 			children = (
 				5AE4AD7E2270A9A500AAD7CC /* README.md */,
+				5AF9C97322F1B63D007F987E /* LICENSE.md */,
 				5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */,
+				5AF9C97222F1B366007F987E /* .swift-version */,
+				5AF9C97122F1B354007F987E /* .swiftlint.yml */,
 				5A20E22120864FD000EF4E1A /* Source */,
 				5AF6D0662073DA6E002E98A3 /* Tests */,
 				0F2D217A1EDEA18500D09ADF /* Products */,
@@ -728,13 +734,11 @@
 					};
 					9F9E5F041F2770A000FC5246 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8JS62GK93M;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					9F9E5F1A1F2775D700FC5246 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8JS62GK93M;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -1019,7 +1023,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "";
@@ -1078,7 +1082,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
@@ -1199,7 +1203,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8JS62GK93M;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1228,7 +1232,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8JS62GK93M;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1257,7 +1261,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8JS62GK93M;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1287,7 +1291,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8JS62GK93M;
+				DEVELOPMENT_TEAM = B7E25J2PRJ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

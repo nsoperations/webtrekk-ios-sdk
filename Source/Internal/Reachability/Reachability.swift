@@ -25,7 +25,7 @@
  POSSIBILITY OF SUCH DAMAGE.
  */
 
-// TODO: Although not part of warchOS target, still generates an error on cocoapods lib lint
+// TODO: Although not part of watchOS target, still generates an error on cocoapods lib lint
 #if !os(watchOS)
 import SystemConfiguration
 import Foundation
