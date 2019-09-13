@@ -139,9 +139,10 @@ public class WebtrekkTracking {
         }
 
         let everId = tracker.everId
-
+        let userAgent = DefaultTracker.userAgent
+        
         let userScript = WKUserScript(
-            source: "var webtrekkApplicationEverId = \"\(everId)\";",
+            source: "var webtrekkApplicationEverId = \"\(everId)\";var webtrekkApplicationUserAgent = \"\(userAgent)\";",
             injectionTime: WKUserScriptInjectionTime.atDocumentStart,
             forMainFrameOnly: false
         )
