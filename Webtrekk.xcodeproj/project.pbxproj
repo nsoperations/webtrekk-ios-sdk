@@ -253,7 +253,7 @@
 		5AF6D0692073DA6E002E98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF6D0802073DC86002E98A3 /* RequestTrackerBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTrackerBuilderTests.swift; sourceTree = "<group>"; };
 		5AF9C97122F1B354007F987E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
-		5AF9C97222F1B366007F987E /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		5AF9C97222F1B366007F987E /* swift-versions */ = {isa = PBXFileReference; lastKnownFileType = text; path = "swift-versions"; sourceTree = "<group>"; };
 		5AF9C97322F1B63D007F987E /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		9F4400221FDE887600F7CE04 /* ProductListTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTracker.swift; sourceTree = "<group>"; };
 		9F4400241FDE893D00F7CE04 /* ProductListTrackerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTrackerImpl.swift; sourceTree = "<group>"; };
@@ -315,7 +315,7 @@
 				5AE4AD7E2270A9A500AAD7CC /* README.md */,
 				5AF9C97322F1B63D007F987E /* LICENSE.md */,
 				5AE4AD832270AAA000AAD7CC /* Webtrekk.podspec */,
-				5AF9C97222F1B366007F987E /* .swift-version */,
+				5AF9C97222F1B366007F987E /* swift-versions */,
 				5AF9C97122F1B354007F987E /* .swiftlint.yml */,
 				5A20E22120864FD000EF4E1A /* Source */,
 				5AF6D0662073DA6E002E98A3 /* Tests */,

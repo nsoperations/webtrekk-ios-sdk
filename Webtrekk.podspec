@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.tvos.deployment_target = '9.0'
     s.watchos.deployment_target = '4.0'
+    s.swift_version = '4.2'
     s.source   = { :git => 'https://github.com/Webtrekk/webtrekk-ios-sdk.git', :tag => s.version }
 	s.summary  = 'The Webtrekk SDK allows you to track user activities, screen flow and media usage for your App.'
 
